@@ -1,6 +1,6 @@
 package com.dialog.sokchanny.myapplication.utilities;
 
-import com.dialog.sokchanny.myapplication.controller.HomeActivity;
+import com.dialog.sokchanny.myapplication.controller.Main.HomeActivity;
 import com.dialog.sokchanny.myapplication.controller.detail.HouseDetailActivity;
 import com.dialog.sokchanny.myapplication.controller.favorite.FavoriteFragment;
 import com.dialog.sokchanny.myapplication.controller.more.MoreFragment;

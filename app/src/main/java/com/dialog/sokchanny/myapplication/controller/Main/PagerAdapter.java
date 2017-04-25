@@ -1,4 +1,4 @@
-package com.dialog.sokchanny.myapplication.controller;
+package com.dialog.sokchanny.myapplication.controller.Main;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

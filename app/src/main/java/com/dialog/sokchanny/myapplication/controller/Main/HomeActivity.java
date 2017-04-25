@@ -1,4 +1,4 @@
-package com.dialog.sokchanny.myapplication.controller;
+package com.dialog.sokchanny.myapplication.controller.Main;
 
 import android.content.Context;
 import android.content.res.Configuration;
@@ -9,9 +9,6 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.LinearInterpolator;
-import android.view.animation.RotateAnimation;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -26,7 +23,7 @@ import info.hoang8f.android.segmented.SegmentedGroup;
 
 public class HomeActivity extends AppCompatActivity {
 
-    PagerAdapter    adapterViewPager;
+    PagerAdapter adapterViewPager;
     ImageView       seachImage;
     EditText        seachText;
     SegmentedGroup  filterButtonGroup;
