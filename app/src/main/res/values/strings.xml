@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Real estate</string>
+    <string name="home_id_textView">ID : 990 - House</string>
+    <string name="home_price_textView">120 $</string>
+    <string name="home_description_textView">The room is big and located near Koh Pich.</string>
+    <string name="home_location_textView">Phnom Penh, Boueng Kro Per, Koh Pich.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyA9lAnFmghaG4lT8IA7WkDwrI7_L_mNUt4</string>
+</resources>

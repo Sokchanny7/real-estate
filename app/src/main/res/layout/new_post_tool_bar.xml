@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#E3F2FD">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/riel"/>
+
+        <ImageView
+            android:id="@+id/search_post_img"
+            android:src="@drawable/search_icon"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+
+        <EditText
+            android:id="@+id/search_post_text"
+            android:visibility="invisible"
+            android:hint="Enter search"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <info.hoang8f.android.segmented.SegmentedGroup
+            xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/segment_filter_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            segmentedgroup:sc_border_width="1dp"
+            segmentedgroup:sc_tint_color="@color/black"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            segmentedgroup:sc_corner_radius="5dp">
+
+            <RadioButton
+                android:id="@+id/all_post_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All"
+                style="@style/RadioButton" />
+            <RadioButton
+                android:id="@+id/new_post_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Latest"
+                style="@style/RadioButton" />
+            <RadioButton
+                android:id="@+id/old_post_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oldest"
+                style="@style/RadioButton" />
+        </info.hoang8f.android.segmented.SegmentedGroup>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

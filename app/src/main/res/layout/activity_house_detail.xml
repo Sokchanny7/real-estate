@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dialog.sokchanny.myapplication.controller.detail.HouseDetailActivity">
+    <include layout="@layout/toolbar"></include>
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="55dp"
+        android:id              ="@+id/house_detail_rcv_comment"
+        android:layout_width    ="match_parent"
+        android:layout_height   ="match_parent"
+        android:scrollbars      ="vertical">
+    </android.support.v7.widget.RecyclerView>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:background="@color/blueBlue"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp"
+            android:background="@drawable/roundtext"
+            android:layout_weight="9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:src="@drawable/send"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</RelativeLayout>
